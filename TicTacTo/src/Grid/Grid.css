@@ -1,0 +1,14 @@
+.Grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.playerTurn{
+    color: white;
+}
+.turn-highlight{
+    color: white;
+}
