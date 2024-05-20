@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
 
-import About from './components/About/About'
-import Home from './components/Home/Home'
-import Layout from './Layout'
+import About from './components/About/About.jsx'
+import Home from './components/Home/Home.jsx'
+import Layout from './Layout.jsx'
 import Contact from "./components/Contact/Contact.jsx";
 
 

@@ -1,0 +1,21 @@
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.imageCss{
+    border-radius: 4%;
+    height: 300px;
+    width: 300px;
+}
+.Button{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.Button > button{
+    padding: 10px;
+}

@@ -1,0 +1,15 @@
+.Pokedex-headind{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+.Pokedex-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+/* for Anchor tag color  */
+a:visited{
+    color: black;
+}
