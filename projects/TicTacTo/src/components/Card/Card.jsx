@@ -20,4 +20,4 @@ function Card({player ,onplay , index , gameEnd}){
 
 
 
-export default Card
+export default Card 
