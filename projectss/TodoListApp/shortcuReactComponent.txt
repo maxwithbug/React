@@ -1,0 +1,3 @@
+rfce: Creates a React functional component with an export statement.
+rafce: Creates a React functional component with an arrow function and export statement.
+rcc: Creates a React class component with an export statement.

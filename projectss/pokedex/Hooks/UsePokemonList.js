@@ -15,7 +15,6 @@ function UsePokemonList(url, type) {
     async function downloadPokemon(){
         SetpokemonListState({...pokemonListState ,  isLoanding : true})
         const response = await axios.get(pokemonListState.POKEDEX_URL) //this downloads lisrt of 20 pokemonos
-        console.log(response.data);
 
         SetpokemonListState((state)=>
             ({
@@ -54,7 +53,7 @@ function UsePokemonList(url, type) {
                 }
         })
 
-        console.log(pokeListResult);
+
         SetpokemonListState((state)=>
             ({
                 ...state ,

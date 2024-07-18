@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter, Route, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {  RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ImageDetails from './components/Image/Image.jsx';
 import SingleImage from './components/SingleImage/SingleImage.jsx';
 
